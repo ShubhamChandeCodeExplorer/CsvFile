@@ -63,4 +63,9 @@ public class ProductController {
         return new ResponseEntity<>("File Exported Successfully",  HttpStatus.OK);
     }
 
+    @GetMapping("/hello")
+    public ResponseEntity<String> sayHello(){
+        return new ResponseEntity<>("File Exported Successfully",  HttpStatus.OK);
+    }
+
 }
