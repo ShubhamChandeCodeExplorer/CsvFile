@@ -73,6 +73,10 @@ public class ProductController {
         return ResponseEntity.ok("/hi");
     }
 
+    @GetMapping("/hi")
+    public ResponseEntity<String> welcome(){
+        return ResponseEntity.ok("/welcome");
+    }
 
 
 }
