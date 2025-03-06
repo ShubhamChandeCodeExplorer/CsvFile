@@ -68,6 +68,11 @@ public class ProductController {
         return new ResponseEntity<>("File Exported Successfully",  HttpStatus.OK);
     }
 
+    @GetMapping("/hi")
+    public ResponseEntity<String> hi(){
+        return ResponseEntity.ok("/hi");
+    }
+
 
 
 }
