@@ -82,5 +82,9 @@ public class ProductController {
     public ResponseEntity<String> bye(){
         return ResponseEntity.ok("/bye");
     }
+    @GetMapping("/pappu")
+    public ResponseEntity<String> pappu(){
+        return ResponseEntity.ok("/welcome");
+    }
 
 }
